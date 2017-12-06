@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "864329272889",
+    "firebase_url": "https://portfolio-app-547b7.firebaseio.com",
+    "project_id": "portfolio-app-547b7",
+    "storage_bucket": "portfolio-app-547b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864329272889:android:5fc687288132f04c",
+        "android_client_info": {
+          "package_name": "com.omniroid.tapan.portfolioapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864329272889-qhh4r69slmonp5soqsnvm93mntmr2lu5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.omniroid.tapan.portfolioapp",
+            "certificate_hash": "4cd944a88d1e3dfd88c048c5ba329513a2a672cd"
+          }
+        },
+        {
+          "client_id": "864329272889-li5kkdrd6buk2942iu7q9rio8p2k003g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgeWe2ujTBN9ua28re0wQlU2HOQlSAgYE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864329272889-li5kkdrd6buk2942iu7q9rio8p2k003g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

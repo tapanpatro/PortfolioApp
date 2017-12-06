@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#acacac"
+    tools:context="com.omniroid.tapan.portfolioapp.view.splash.SpalshScreenActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_spalsh" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/spalsh_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_spalsh_hi"
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_hi"
+            android:textAllCaps="true"
+            android:textColor="#fdffdb"
+            android:textSize="70sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_spalsh_iam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spalsh_iam"
+            android:textAllCaps="true"
+            android:textColor="#fdffdb"
+            android:textSize="70sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_spalsh_tapan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spalsh_tapan"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="70sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/con"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <com.sdsmdg.harjot.rotatingtext.RotatingTextWrapper
+            android:id="@+id/custom_switcher"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</FrameLayout>

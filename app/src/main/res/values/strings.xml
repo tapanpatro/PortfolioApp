@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PortfolioApp</string>
+
+    <string name="con">&amp; i\'m</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="app_banner_app_id">ca-app-pub-6662509822018991~1375543197</string>
+    <string name="app_banner_unit_id">ca-app-pub-6662509822018991/3351927703</string>
+
+    <string name="app_inter_unit_id">ca-app-pub-6662509822018991/8604254380</string>
+
+
+    <string name="action_settings">Setting</string>
+
+    <string name="lets_start">Let\'s Start</string>
+
+    <string name="splash_hi">Hi</string>
+    <string name="spalsh_iam">I am</string>
+    <string name="spalsh_tapan">Tapan</string>
+
+
+    <string name="good_morning">Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="good_night">Good Night</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

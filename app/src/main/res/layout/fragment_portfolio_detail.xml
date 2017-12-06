@@ -1,0 +1,1317 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.omniroid.tapan.portfolioapp.view.fragment.PortfolioDetailFragment">
+
+    <LinearLayout
+        android:id="@+id/ll_wedding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_check"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!--Upper Part Wedding App-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_greet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wedding"
+                android:textAlignment="textEnd"
+                android:textColor="#fff"
+                android:textSize="70sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apps"
+                android:textAlignment="textEnd"
+                android:textColor="#fff"
+                android:textSize="50sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view_nayapu"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    cardView:cardCornerRadius="5dp"
+                    cardView:cardElevation="6dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:src="@drawable/ic_nayapu" />
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view_putta"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    cardView:cardCornerRadius="5dp"
+                    cardView:cardElevation="6dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:src="@drawable/ic_putta" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Detail of the app-->
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--Detail Putta-->
+                <LinearLayout
+                    android:id="@+id/ll_putta_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/img_placeholder"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="0.4"
+                            cardView:cardCornerRadius="5dp"
+                            cardView:cardElevation="6dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="1dp"
+                                android:src="@drawable/ic_putta" />
+                        </android.support.v7.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="Putta's Wedding App Invitation"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginRight="9dp"
+                        android:text="asdadadsasdada"
+                        android:textSize="17sp" />
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:isScrollContainer="false"
+                        android:scrollbars="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:scrollbars="horizontal">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_putta1" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_putta2" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_putta3" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_putta4" />
+
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_putta5" />
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                    <Button
+                        android:id="@+id/btn_download_putta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="70dp"
+                        android:backgroundTint="#15a726"
+                        android:text="Download"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <!--Detail Putta-->
+                <LinearLayout
+                    android:id="@+id/ll_nayapu_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/img_placeholder"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="0.4"
+                            cardView:cardCornerRadius="5dp"
+                            cardView:cardElevation="6dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="1dp"
+                                android:src="@drawable/ic_nayapu" />
+                        </android.support.v7.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="Nayapu's Wedding App Invitation"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginRight="9dp"
+                        android:text="asdadadsasdada"
+                        android:textSize="17sp" />
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_nayapu1" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_nayapu2" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_nayapu3" />
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                    <Button
+                        android:id="@+id/btn_download_nayapu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="70dp"
+                        android:backgroundTint="#15a726"
+                        android:text="Download"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v4.widget.NestedScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_ecom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#acacac"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!--Upper Part Wedding App-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_ecomm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E-Commerce"
+                android:textAlignment="textEnd"
+                android:textColor="#fff"
+                android:textSize="55sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apps"
+                android:textAlignment="textEnd"
+                android:textColor="#fff"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view_bigjoes"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    cardView:cardCornerRadius="5dp"
+                    cardView:cardElevation="6dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:src="@drawable/ic_bigjoes" />
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view_dolna"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    cardView:cardCornerRadius="5dp"
+                    cardView:cardElevation="6dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:src="@drawable/ic_dolna" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Detail of the app-->
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--Detail Putta-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/img_placeholder"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="0.4"
+                            cardView:cardCornerRadius="5dp"
+                            cardView:cardElevation="6dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="1dp"
+                                android:src="@drawable/ic_dolna" />
+                        </android.support.v7.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="Dolna"
+                                android:textSize="30sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginRight="9dp"
+                        android:text="asdadadsasdada"
+                        android:textSize="17sp" />
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:isScrollContainer="false"
+                        android:scrollbars="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:scrollbars="horizontal">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_putta1" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_putta2" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_putta3" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_putta4" />
+
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_putta5" />
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="70dp"
+                        android:backgroundTint="#15a726"
+                        android:text="Download"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <!--Detail Putta-->
+                <LinearLayout
+                    android:id="@+id/ll_bigjoes_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/img_placeholder"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="0.4"
+                            cardView:cardCornerRadius="5dp"
+                            cardView:cardElevation="6dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="1dp"
+                                android:src="@drawable/ic_bigjoes" />
+                        </android.support.v7.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="Bigjoes' Pizza"
+                                android:textSize="30sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginRight="9dp"
+                        android:text="asdadadsasdada"
+                        android:textSize="17sp" />
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_nayapu1" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_nayapu2" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_nayapu3" />
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                    <Button
+                        android:id="@+id/btn_download_bigjoes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="70dp"
+                        android:backgroundTint="#15a726"
+                        android:text="Download"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v4.widget.NestedScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_freelance"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!--Upper Part Wedding App-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_freelancing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Freelancing"
+                android:textAlignment="textEnd"
+                android:textColor="#fff"
+                android:textSize="55sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apps"
+                android:textAlignment="textEnd"
+                android:textColor="#fff"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view_"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    cardView:cardCornerRadius="5dp"
+                    cardView:cardElevation="6dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:src="@drawable/ic_bigjoes" />
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view_uu"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    cardView:cardCornerRadius="5dp"
+                    cardView:cardElevation="6dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:src="@drawable/ic_dolna" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Detail of the app-->
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--Detail Putta-->
+                <LinearLayout
+                    android:id="@+id/ll_dolna_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/img_placeholder"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="0.4"
+                            cardView:cardCornerRadius="5dp"
+                            cardView:cardElevation="6dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="1dp"
+                                android:src="@drawable/ic_dolna" />
+                        </android.support.v7.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="Dolna"
+                                android:textSize="30sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginRight="9dp"
+                        android:text="asdadadsasdada"
+                        android:textSize="17sp" />
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:isScrollContainer="false"
+                        android:scrollbars="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:scrollbars="horizontal">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_putta1" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_putta2" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_putta3" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_putta4" />
+
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_putta5" />
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                    <Button
+                        android:id="@+id/btn_download_dolna"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="70dp"
+                        android:backgroundTint="#15a726"
+                        android:text="Download"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <!--Detail Putta-->
+                <LinearLayout
+                    android:id="@+id/ll_bigjoes_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/img_placeholder"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="0.4"
+                            cardView:cardCornerRadius="5dp"
+                            cardView:cardElevation="6dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="1dp"
+                                android:src="@drawable/ic_bigjoes" />
+                        </android.support.v7.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:text="Bigjoes' Pizza"
+                                android:textSize="30sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginRight="9dp"
+                        android:text="asdadadsasdada"
+                        android:textSize="17sp" />
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_nayapu1" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_nayapu2" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="120dp"
+                                android:layout_margin="10dp"
+                                android:background="#acacac"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_ss_nayapu3" />
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                    <Button
+                        android:id="@+id/btn_download_bigjoes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="70dp"
+                        android:backgroundTint="#15a726"
+                        android:text="Download"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v4.widget.NestedScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ll_other"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:orientation="vertical">
+
+        <!--Upper Part Other App-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other"
+                android:textAlignment="textEnd"
+                android:textColor="#fff"
+                android:textSize="55sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apps"
+                android:textAlignment="textEnd"
+                android:textColor="#fff"
+                android:textSize="40sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="right"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp"
+                                cardView:cardBackgroundColor="@android:color/transparent"
+                                cardView:cardCornerRadius="5dp"
+                                cardView:cardElevation="6dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ic_cabfinder" />
+                            </android.support.v7.widget.CardView>
+
+
+                            <TextView
+                                android:textAlignment="center"
+                                android:textColor="@android:color/white"
+                                android:textSize="18sp"
+                                android:text="Cabfinder"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp"
+                                cardView:cardBackgroundColor="@android:color/transparent"
+                                cardView:cardCornerRadius="5dp"
+                                cardView:cardElevation="6dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ic_moviemaniac" />
+                            </android.support.v7.widget.CardView>
+
+
+                            <TextView
+                                android:textAlignment="center"
+                                android:textColor="@android:color/white"
+                                android:textSize="18sp"
+                                android:singleLine="true"
+                                android:text="Movie Maniac"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp"
+                                cardView:cardBackgroundColor="@android:color/transparent"
+                                cardView:cardCornerRadius="5dp"
+                                cardView:cardElevation="6dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ic_numbersaver" />
+                            </android.support.v7.widget.CardView>
+
+
+                            <TextView
+                                android:textAlignment="center"
+                                android:textColor="@android:color/white"
+                                android:textSize="18sp"
+                                android:text="Cabfinder"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="right"
+                        android:orientation="horizontal">
+
+                        <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:layout_margin="10dp"
+                            cardView:cardBackgroundColor="@android:color/transparent"
+                            cardView:cardCornerRadius="5dp"
+                            cardView:cardElevation="6dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="1dp"
+                                android:src="@drawable/ic_gshare" />
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:layout_margin="10dp"
+                            cardView:cardBackgroundColor="@android:color/transparent"
+                            cardView:cardCornerRadius="5dp"
+                            cardView:cardElevation="6dp">
+
+                            <ImageView
+                                android:id="@+id/imageView2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="1dp"
+                                android:src="@drawable/ic_aswhin" />
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:layout_margin="10dp"
+                            cardView:cardBackgroundColor="@android:color/transparent"
+                            cardView:cardCornerRadius="5dp"
+                            cardView:cardElevation="6dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="1dp"
+                                android:src="@drawable/ic_news" />
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="right"
+                        android:orientation="horizontal">
+
+                        <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:layout_margin="10dp"
+                            cardView:cardBackgroundColor="@android:color/transparent"
+                            cardView:cardCornerRadius="5dp"
+                            cardView:cardElevation="6dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="1dp"
+                                android:src="@drawable/ic_weight" />
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:layout_margin="10dp"
+                            cardView:cardBackgroundColor="@android:color/transparent"
+                            cardView:cardCornerRadius="5dp"
+                            cardView:cardElevation="6dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="1dp"
+                                android:src="@drawable/ic_potrait" />
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView xmlns:cardView="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:layout_margin="10dp"
+                            cardView:cardBackgroundColor="@android:color/transparent"
+                            cardView:cardCornerRadius="5dp"
+                            cardView:cardElevation="6dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="1dp"
+                                android:src="@drawable/ic_plot_it" />
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

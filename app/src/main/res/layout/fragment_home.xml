@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_text"
+
+    tools:context="com.omniroid.tapan.portfolioapp.HomeFragment">
+
+
+    <ImageView
+        android:id="@+id/img_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:visibility="gone"
+        android:layout_marginTop="25dp"
+        android:text="open"
+        android:id="@+id/btn_open_portfolio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textAlignment="textEnd"
+            android:id="@+id/tv_greet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="greetings"
+            android:textColor="#fff"
+            android:textSize="34sp" />
+
+        <TextClock
+            android:textAlignment="textEnd"
+            android:id="@+id/text_clock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="75sp" />
+    </LinearLayout>
+
+
+    <Button
+        android:background="@drawable/btn_lets_start_background"
+        android:layout_gravity="bottom"
+        android:id="@+id/btn_open_drawer"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="70dp"
+        android:text="@string/lets_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/app_banner_unit_id">
+        </com.google.android.gms.ads.AdView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</FrameLayout>
